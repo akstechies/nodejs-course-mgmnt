@@ -1,0 +1,35 @@
+npm init
+
+express.js: It is a web framework.
+express-handlebars: It is a template engine and helps in creating client-side applications.
+mongoose: Helps in communicating with MongoDB.
+body-parser: Helps in converting the POST data into the request body.
+nodemon: Helps in automatically restarting the server whenever the code changes.
+
+npm i --s express express-handlebars mongoose body-parser
+
+npm i -g nodemon
+
+create a folder inside the project directory and name it ‘model’
+    nside this folder, create a javascript file with the name ‘mongodb.js‘
+
+define the schema of your course database. For that, create a new JS file within the model folder and name it ‘course.model.js‘.
+    name, id, duration, and fee
+
+NodejsMongoDbDemo
+    package.json
+    script.js
+    controllers
+        courseController.js
+    img
+        logo.jpg
+    models
+        course.model.js
+        mongodb.js
+    views
+        course
+            courseAddEdit.hbs
+            list.hbs
+        layouts
+            mainLayout.hbs
+

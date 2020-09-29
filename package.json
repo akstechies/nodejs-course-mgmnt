@@ -1,0 +1,17 @@
+{
+  "name": "course-mgmnt",
+  "version": "1.0.0",
+  "description": "CRUD App with node.js express and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AKS Techies",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mongoose": "^5.10.7"
+  }
+}
